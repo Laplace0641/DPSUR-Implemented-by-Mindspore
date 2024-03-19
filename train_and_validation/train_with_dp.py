@@ -1,9 +1,7 @@
 import mindspore
 import mindspore.nn as nn
 import mindspore.ops as ops
-from mindspore import context
 from utils.dp_optimizer import DPoptimizer
-context.set_context(mode=context.GRAPH_MODE, device_target='CPU')
 import sys
 
 
